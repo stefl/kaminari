@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
 
   s.licenses = ['MIT']
 
-  %w{ activesupport actionpack railties }.each do |gem|
-    s.add_dependency gem, ['>= 3.0.0']
-  end
+  #%w{ activesupport actionpack railties }.each do |gem|
+  #  s.add_dependency gem, ['>= 3.0.0']
+  #end
   s.add_development_dependency 'bundler', ['>= 1.0.0']
   #s.add_development_dependency 'sqlite3', ['>= 0']
   %w{ activerecord activemodel }.each do |gem|
